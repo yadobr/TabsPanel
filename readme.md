@@ -1,5 +1,5 @@
 # TabsPanel
-TabsPanel it's a simple and light weight tabs panel script written in pure javascript.
+TabsPanel it's a simple and lightweight tabs panel script written in pure javascript.
 Only ~1.3kb!
 
 [DEMO](https://yadobr.github.io/tabspanel/)

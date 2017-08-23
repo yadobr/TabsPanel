@@ -3,11 +3,8 @@
 <head>
 	<title>Word</title>
 	<meta charset="utf-8"/>
-	<script type="text/javascript" src="JS/Common.js" async></script>
-	<script type="text/javascript" src="JS/TabsPanel.js" async></script>
-
-	<link rel="stylesheet" type="text/css" href="CSS/Common.css"/>
-	<link rel="stylesheet" type="text/css" href="CSS/TabsPanel.css"/>
+	<script type="text/javascript" src="js/TabsPanel.js" async></script>
+	<link rel="stylesheet" type="text/css" href="css/TabsPanel.css"/>
 </head>
 <body>
 
@@ -26,6 +23,14 @@
 	<div class="tab-content">Изображения и фигуры</div>
 	<div class="tab-content">Таблицы</div>
 </div>
+
+<script>
+window.onload = function()
+{
+	// CREATE A TABS PANEL
+	tabsPanel = new TabsPanel();
+}
+</script>
 
 </body>
 </html>
